@@ -3,6 +3,7 @@
 <head>
     <title>WEB1-여행</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-M7S6YWKS0L"></script>
@@ -13,24 +14,27 @@
 
   gtag('config', 'G-M7S6YWKS0L');
 </script>
+
 <body>
     <h1><a href="index.html">방학 때!!</a></h1>
-    <ol>
-        <li><a href="1.html">영상</a> </li>
-        <li><a href="2.html">취미</a> </li>
-        <li><a href="3.html">여행</a> </li>
-    </ol>
-
-    <h2>여행</h2>
-    <p style="margin-top:15px;">
-        여행(旅行)이란, 일이나 유람, 휴식 등을 위해 일상생활에서 벗어나 타 국가, 다른 지역으로 떠나는 일을 말한다. 크게 배낭여행과 패키지 여행, 혹은 국내여행과 해외여행으로 구분된다. 2020년대 들어서는 우주여행 또한 본격적으로 새로운 여행의 한 형태로 등장하기 시작했다.
-    
-        방학 때는 학기 중에 비해 시간이 여유로운 만큼 여행을 가기에 좋다. 
-        그래서 <strong><u>여행 코스</u>를 추천</strong>해보려고 한다.
-        필자 또한 방학 중에 2박 3일간 부산여행을 갔으며, 
-        이 코스는 나의 여행 코스이기도 하다. 아주 만족스러웠기에 추천한다. <br>
-        <a href="https://www.visitbusan.net/kr/index.do" target="_blank" title="부산관광공사">->부산의 관광 명소</a>
-    
-    </p>
+    <div id="grid">
+        <ol>
+            <li><a href="1.html">영상</a> </li>
+            <li><a href="2.html" class="saw">취미</a> </li>
+            <li><a href="3.html" class="saw" id="current">여행</a> </li>
+        </ol>
+        <div>
+            <h2>여행</h2>
+            <p style="margin-top:15px;">
+                여행(旅行)이란, 일이나 유람, 휴식 등을 위해 일상생활에서 벗어나 타 국가, 다른 지역으로 떠나는 일을 말한다. 크게 배낭여행과 패키지 여행, 혹은 국내여행과 해외여행으로 구분된다. 2020년대 들어서는 우주여행 또한 본격적으로 새로운 여행의 한 형태로 등장하기 시작했다.
+            
+                방학 때는 학기 중에 비해 시간이 여유로운 만큼 여행을 가기에 좋다. 
+                그래서 <strong><u>여행 코스</u>를 추천</strong>해보려고 한다.
+                필자 또한 방학 중에 2박 3일간 부산여행을 갔으며, 
+                이 코스는 나의 여행 코스이기도 하다. 아주 만족스러웠기에 추천한다. <br>
+                <a href="https://www.visitbusan.net/kr/index.do" target="_blank" title="부산관광공사">->부산의 관광 명소</a>
+            </p>
+        </div>
+    </div>
 </body>
 </html>
